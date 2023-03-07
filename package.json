@@ -1,0 +1,27 @@
+{
+    "name": "curso-intermediario-cypress-learning",
+    "version": "1.0.0",
+    "description": "Aprendizado de Cypress.io",
+    "main": "cypress.config.js",
+    "scripts": {
+        "test": "cypress run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaolucaspsousa/Cypress-Intermediary-Learning"
+    },
+    "keywords": [
+        "Cypress intermediário"
+    ],
+    "author": "João Lucas <joaosousa@tokenlab.com.br>",
+    "license": "MIT",
+    "homepage": "https://github.com/joaolucaspsousa/Cypress-Intermediary-Learning",
+    "bugs": {
+        "url": "https://github.com/joaolucaspsousa/Cypress-Intermediary-Learning/issues"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^7.6.0",
+        "cypress": "^12.0.2",
+        "cypress-plugin-api": "^2.6.1"
+    }
+}
