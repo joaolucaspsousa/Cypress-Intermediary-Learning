@@ -6,8 +6,7 @@ describe('Create Project', () => {
     })
 
     it('Successfully', () => {
-        const project = new Project()
-        project.create()
-        cy.contains(project.name).should('be.visible')
+        Project.create()
+        cy.contains(Project.name).should('be.visible')
     })
 })

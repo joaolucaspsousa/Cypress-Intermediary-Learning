@@ -1,4 +1,7 @@
 const Navbar_Locators = {
+    issues: '.dashboard-shortcuts-issues',
+    mergeRequests: '.dashboard-shortcuts-merge_requests',
+
     profile: {
         toggleDropdown: '.qa-user-avatar',
         name: '.user-name',
