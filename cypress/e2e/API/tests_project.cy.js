@@ -11,12 +11,12 @@ describe('Suite of tests cases that covers all access to project endpoints and r
     })
 
     it('Get a project successfully', async() => {
-        let project = await Project.API.getProject(27);
+        let project = await Project.API.getProject(36);
         console.log(project)
     })
 
     /*it('Delete a project successfully', () => {
-        Project.API.deleteProject(26);
+        Project.API.deleteProject(36);
     })
 
     it('Delete all projects successfully', () => {
